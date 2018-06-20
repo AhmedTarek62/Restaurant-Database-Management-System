@@ -1,0 +1,9 @@
+CREATE TABLE ItemContains
+(
+ItemID		NUMERIC(5,0)	NOT NULL,
+SupplyID	NUMERIC(5,0)	NOT NULL,
+Qty			NUMERIC(6,2)	NOT NULL      CHECK(Qty>0),
+UnitID		NUMERIC(5,0)	NOT NULL,
+
+PRIMARY KEY(ItemID,SupplyID),
+  );

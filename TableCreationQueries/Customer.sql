@@ -1,0 +1,12 @@
+CREATE TABLE Customer
+(
+   ID			NUMERIC(5,0)	NOT NULL,
+   FName		VARCHAR(50)		NOT NULL,
+   MNames		VARCHAR(80),
+   LName		VARCHAR(50),
+   PhoneNum	VARCHAR(15)		NOT NULL, 
+   Email		VARCHAR(80),
+   CAddress		VARCHAR(255)	NOT NULL,
+   
+   PRIMARY KEY (ID),
+);
